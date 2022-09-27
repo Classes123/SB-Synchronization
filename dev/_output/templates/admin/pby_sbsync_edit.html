@@ -1,0 +1,39 @@
+<xf:title>{{ $entry ? phrase('edit') . ': ' . $entry.srv_group : phrase('add') }}</xf:title>
+
+<xf:form action="{{ $entry ? link('sbsync/edit', $entry) : link('sbsync/add') }}" class="block" ajax="true" data-force-flash-message="true">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:selectrow name="srv_group" label="{{ phrase('pby_sbsync_has_group') }}" value="{$entry.srv_group}" required="true">
+				<xf:option>
+						<xf:label></xf:label>
+				</xf:option>
+				<xf:foreach loop="$srv_groups" value="$srv_group">
+					<xf:option value="{$srv_group.name}">
+						<xf:label>{$srv_group.name}</xf:label>
+					</xf:option>
+				</xf:foreach>
+			</xf:selectrow>
+			
+			<hr class="formRowSep" />
+			
+			<xf:checkboxrow name="server_ids" label="{{ phrase('pby_sbsync_on_server') }}" listclass="listColumns" value="{$entry.server_ids}">
+				<xf:foreach loop="$servers" value="$server">
+					<xf:option value="{$server.sid}">
+						{$server.ip}:{$server.port}
+					</xf:option>
+				</xf:foreach>
+			</xf:checkboxrow>
+			
+			<hr class="formRowSep" />
+			
+			<xf:checkboxrow name="group_ids" label="{{ phrase('pby_sbsync_give_a_group') }}" listclass="listColumns" value="{$entry.group_ids}"> 
+				<xf:foreach loop="$groups" key="$id" value="$group">
+					<xf:option value="{$id}">
+						{$group.title}
+					</xf:option>
+				</xf:foreach>
+			</xf:checkboxrow>
+		</div>
+		<xf:submitrow rowtype="simple" icon="{{ $entry ? 'save' : 'add' }}" submit="{{ $entry ? '' : phrase('add') }}"/>
+	</div>
+</xf:form>

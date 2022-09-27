@@ -1,0 +1,12 @@
+{
+    "admin/pby_sbsync_edit.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "dc7f7a047243fa530bf25c02461800bb"
+    },
+    "admin/pby_sbsync_list.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "3124639e62ac0b21e9379171c78c0ac9"
+    }
+}

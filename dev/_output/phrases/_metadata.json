@@ -1,0 +1,74 @@
+{
+    "admin_navigation.pbySBSync.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d603eb93553cd7b943ee3a7740f02f85"
+    },
+    "cron_entry.pbySBSync_synchronize.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d13c4dfead1e8b24233f95e939250d61"
+    },
+    "option.pbySBSync_prefix.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "bced0114698ae55403d28d2467c6f038"
+    },
+    "option.pbySBSync_usersPerSync.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "bf21407dfa417038b2d9a2d0e965ae2a"
+    },
+    "option_explain.pbySBSync_prefix.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "01258b1422fcc39ce4d322143bae5605"
+    },
+    "option_explain.pbySBSync_usersPerSync.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "50c0fb9fe734030af1f14c09ea690fd4"
+    },
+    "option_group.pbySBSync.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d13c4dfead1e8b24233f95e939250d61"
+    },
+    "option_group_description.pbySBSync.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "1381b578995ca69b4a46a13e698dc927"
+    },
+    "pby_sbsync_give_a_group.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "b8ada3eee97c3e8961eb150cf97ad34b"
+    },
+    "pby_sbsync_has_group.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "769f20a759b911ccbf0f2d2d2de615cd"
+    },
+    "pby_sbsync_on_server.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "85d20980ff7ecea54130b70081972acb"
+    },
+    "pby_sbsync_select_groups.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "da91aa852585540d5e4bdbbaaf2a9e9e"
+    }
+}

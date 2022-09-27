@@ -1,0 +1,27 @@
+{
+    "legacy_addon_id": "",
+    "title": "[PBY] SourceBans Synchronization",
+    "description": "Synchronizes SourceBans admin groups and groups on your forum.",
+    "version_id": 1000170,
+    "version_string": "1.0.1",
+    "dev": "Young <",
+    "dev_url": "https://hlmod.ru/enderg/",
+    "faq_url": "https://hlmod.ru/resources/xf-sourcebans-synchronization.3567/",
+    "support_url": "https://hlmod.ru/threads/xf-sourcebans-synchronization.60543/",
+    "extra_urls": [],
+    "require": {
+        "php-ext/bcmath": [
+            "*",
+            "BCMath extension"
+        ],
+        "XF": [
+            2020870,
+            "XenForo 2.2.8+"
+        ],
+        "BlackTea/SteamAuth": [
+            10709070,
+            "SteamAuth 1.7.9+"
+        ]
+    },
+    "icon": "icon.png"
+}

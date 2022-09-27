@@ -1,0 +1,17 @@
+{
+    "cron_class": "PBY\\SBSync\\Cron\\Synchronize",
+    "cron_method": "synchronize",
+    "run_rules": {
+        "day_type": "dom",
+        "dom": [
+            -1
+        ],
+        "hours": [
+            -1
+        ],
+        "minutes": [
+            -1
+        ]
+    },
+    "active": true
+}

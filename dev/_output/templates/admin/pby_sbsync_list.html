@@ -1,0 +1,32 @@
+<xf:title>{{ phrase('admin_navigation.pbySBSync') }}</xf:title>
+
+<xf:pageaction>
+	<xf:button href="{{ link('sbsync/add') }}" icon="add" overlay="true">
+		{{ phrase('add') }}
+	</xf:button>
+</xf:pageaction>
+
+<div class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:datalist>
+				<xf:foreach loop="$items" value="$item">
+					<xf:datarow>
+						<xf:main label="{$item.srv_group}" 
+								 hint="[{$item.server_ids|join(', ')}]" 
+								 href="{{ link('sbsync/edit', $item) }}" 
+								 overlay="true"/>
+						<xf:delete href="{{ link('sbsync/delete', $item) }}" />
+					</xf:datarow>
+				</xf:foreach>
+			</xf:datalist>
+		</div>
+		<div class="block-footer">
+			<span class="block-footer-counter">{{ display_totals($items, $total) }}</span>
+		</div>
+	</div>
+	<xf:pagenav
+		page="{$page}" perpage="{$perPage}" total="{$total}"
+		link="sbsync"
+		wrapperclass="js-filterHide block-outer block-outer--after" />
+</div>

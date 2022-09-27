@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Entity\\UserConnectedAccount",
+    "to_class": "PBY\\SBSync\\XF\\Entity\\UserConnectedAccount",
+    "execute_order": 10,
+    "active": true
+}

@@ -1,0 +1,11 @@
+{
+    "route_type": "admin",
+    "route_prefix": "sbsync",
+    "sub_name": "",
+    "format": ":int<entry_id>/",
+    "build_class": "",
+    "build_method": "",
+    "controller": "PBY\\SBSync:Index",
+    "context": "pbySBSync",
+    "action_prefix": ""
+}
